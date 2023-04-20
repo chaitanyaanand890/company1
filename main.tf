@@ -1,5 +1,5 @@
 module "web" {
-  source               = ".//startup_company1"
+  source               = "github.com/chitanyaanand890/terraform_startup_module"
   aws_region           = var.aws_region
   web_domain_name      = var.domain_name
   web_sub_domain_name  = var.web_sub_domain_name
@@ -8,7 +8,7 @@ module "web" {
 }
 
 module "mail" {
-  source               = ".//startup_company2"
+  source               = "github.com/chaitanyaanand890/terraform_startup_module"
   aws_region           = var.aws_region
   mail_domain_name     = var.domain_name
   mail_sub_domain_name = var.mail_sub_domain_name
