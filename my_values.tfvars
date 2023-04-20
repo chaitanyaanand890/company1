@@ -1,0 +1,8 @@
+aws_region = "fill your aws region"
+access_key = "fill your access key"
+secret_key = "fill your secret key"
+domain_name = "fill your domain name"
+web_sub_domain_name = "web"
+mail_sub_domain_name = "mail"
+aws_private_key_path = "paste your local pem key path "
+key_name = "fill your keypair name in aws specified region"
