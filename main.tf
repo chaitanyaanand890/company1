@@ -5,6 +5,8 @@ module "web" {
   web_sub_domain_name  = var.web_sub_domain_name
   aws_private_key_path = var.aws_private_key_path
   key_name             = var.key_name
+  web_want             = var.web_want
+  web_count            = var.web_count
 }
 
 module "mail" {
@@ -14,4 +16,6 @@ module "mail" {
   mail_sub_domain_name = var.mail_sub_domain_name
   aws_private_key_path = var.aws_private_key_path
   key_name             = var.key_name
+  mail_want            = var.mail_want
+  mail_count           = var.mail_count
 }
